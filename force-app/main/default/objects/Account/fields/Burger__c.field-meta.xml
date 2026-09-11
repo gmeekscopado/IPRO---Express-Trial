@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Burger__c</fullName>
+    <label>Burger</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cheeseburger</fullName>
+                <default>false</default>
+                <label>Cheeseburger</label>
+            </value>
+            <value>
+                <fullName>Hamburger</fullName>
+                <default>false</default>
+                <label>Hamburger</label>
+            </value>
+            <value>
+                <fullName>Turkey Burger</fullName>
+                <default>false</default>
+                <label>Turkey Burger</label>
+            </value>
+            <value>
+                <fullName>Veggie Burger</fullName>
+                <default>false</default>
+                <label>Veggie Burger</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
